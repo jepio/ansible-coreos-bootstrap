@@ -14,7 +14,7 @@ if [[ -e $HOME/pypy2.7-$PYPY_VERSION-linux64.tar.bz2 ]]; then
   tar -xjf $HOME/pypy2.7-$PYPY_VERSION-linux64.tar.bz2
   rm -rf $HOME/pypy2.7-$PYPY_VERSION-linux64.tar.bz2
 else
-  wget -O - https://bitbucket.org/pypy/pypy/downloads/pypy2.7-$PYPY_VERSION-linux64.tar.bz2 |tar -xjf -
+  wget -O - https://downloads.python.org/pypy/pypy2.7-$PYPY_VERSION-linux64.tar.bz2 |tar -xjf -
 fi
 
 mv -n pypy2.7-$PYPY_VERSION-linux64 pypy
